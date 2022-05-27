@@ -13,6 +13,9 @@ npm run dev
 yarn dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
 ## Note
 ```
 next export solution 
@@ -24,4 +27,9 @@ https://github.com/vercel/next.js/discussions/19065
 * fix image path problem when set next.config 's basePath 
 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## nextjs image optimization 
+
+
+* [Next.js Image Optimization Techniques](https://uploadcare.com/blog/next-js-image-optimization/) 
+* [Image Component and Image Optimization] (https://nextjs.org/docs/basic-features/image-optimization)

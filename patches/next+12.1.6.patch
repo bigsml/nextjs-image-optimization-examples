@@ -1,0 +1,13 @@
+diff --git a/node_modules/next/dist/server/config.js b/node_modules/next/dist/server/config.js
+index 8a972f4..3e5a1ec 100644
+--- a/node_modules/next/dist/server/config.js
++++ b/node_modules/next/dist/server/config.js
+@@ -328,7 +328,7 @@ function assignDefaults(userConfig) {
+         }
+         // Append trailing slash for non-default loaders and when trailingSlash is set
+         if (images.path) {
+-            if (images.loader !== 'default' && images.path[images.path.length - 1] !== '/' || result.trailingSlash) {
++            if (images.loader !== 'default' && images.path[images.path.length - 1] !== '/' && result.trailingSlash) {
+                 images.path += '/';
+             }
+         }

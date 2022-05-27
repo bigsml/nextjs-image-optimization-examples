@@ -13,4 +13,15 @@ npm run dev
 yarn dev
 ```
 
+## Note
+```
+next export solution 
+https://github.com/vercel/next.js/discussions/19065 
+
+```
+
+* demo of next(^12) export solution 
+* fix image path problem when set next.config 's basePath 
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

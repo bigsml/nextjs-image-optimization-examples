@@ -3,13 +3,14 @@ const baseGithubUrl = 'https://github.com/kkomelin/nextjs-image-optimization-exa
 const link = (title, name) => {
   return {
     title,
-    demo_url: `/${name}`,
+    demo_url: `${name}`,
     source_url: `${baseGithubUrl}${name}.js`
   }
 }
 
 const links = [
   link('Native <img> tag', 'native-img-tag'),
+  link('Hybrid tag(Test yarn export)', 'test'),
   link('Unoptimized Next.js Images', 'unoptimized-images'),
   link('Better format, size and resolution', 'better-format-size-resolution'),
   link('Responsive images', 'responsive-images'),
